@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="p2.css">
+    <title>Saffron Table Fine Dining Restaurant</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Jost:wght@300;400;500&display=swap"
+        rel="stylesheet" />
+
+</head>
+
+<body>
+
+    <header class="site-header">
+        <div class="header-inner">
+
+            <a href="#home" class="logo">
+                <span class="logo-text">Saffron Table</span>
+            </a>
+
+
+            <button class="hamburger" id="hamburgerBtn" aria-label="Toggle navigation menu" aria-expanded="false">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+
+
+            <nav class="main-nav" id="mainNav">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#menu" class="nav-link">Menu</a>
+                <a href="#contact" class="nav-link">Contact</a>
+                <a href="#contact" class="nav-btn">Reserve a Table</a>
+            </nav>
+
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="hero-overlay"></div>
+            <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1400&q=80"
+                alt="Beautifully plated fine dining dish at Saffron Table restaurant" width="1400" height="800"
+                class="hero-bg" />
+            <div class="hero-content">
+                <p class="hero-tagline">Est. 2018 · Fine Dining</p>
+                <h1>Where Every Meal<br />Becomes a <em>Memory</em></h1>
+                <p class="hero-desc">Experience the finest flavours, crafted with passion and served with elegance in
+                    the heart of the city.</p>
+                <div class="hero-btns">
+                    <a href="#menu" class="btn-primary">Explore Menu</a>
+                    <a href="#contact" class="btn-outline">Book a Table</a>
+                </div>
+            </div>
+        </section>
+        <section class="info-strip">
+            <div class="info-strip-inner">
+                <div class="info-item">
+                    <span class="info-icon">🕐</span>
+                    <div>
+                        <p class="info-label">Opening Hours</p>
+                        <p class="info-value">Mon - Sun: 12pm - 11pm</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <span class="info-icon">📍</span>
+                    <div>
+                        <p class="info-label">Location</p>
+                        <p class="info-value">42 Gulshan Avenue, Dhaka</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <span class="info-icon">📞</span>
+
+                    <div>
+                        <p class="info-label">Reservations</p>
+                        <p class="info-value">+880 1700 000 000</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section class="about" id="about">
+            <div class="about-inner">
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1424847651672-bf20a4b0982b?w=700&q=80"
+                        alt="Chef preparing a dish in Saffron Table kitchen" width="700" height="500" />
+                    <div class="about-badge">
+                        <span class="badge-number">6+</span>
+                        <span class="badge-text">Years of Excellence</span>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <p class="section-label">Our Story</p>
+                    <h2>Crafted with Passion,<br /><em>Served with Love</em></h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo ullam deleniti, tempora nemo
+                        soluta temporibus consequatur ratione enim similique perferendis voluptas cum quis, accusamus
+                        quas distinctio repellendus molestias quidem </p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis odit at quidem ea amet autem
+                        unde nihil, exercitationem odio maiores eligendi totam commodi ratione, nemo assumenda, dolore
+                        quibusdam expedita laborum.</p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <span class="stat-num">50+</span>
+                            <span class="stat-label">Menu Items</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-num">12</span>
+                            <span class="stat-label">Expert Chefs</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-num">10k+</span>
+                            <span class="stat-label">Happy Guests</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <section class="menu" id="menu">
+            <div class="section-header">
+                <p class="section-label">What We Offer</p>
+                <h2>Our Signature Menu</h2>
+                <p class="section-sub">Freshly prepared with the finest ingredients every day</p>
+            </div>
+
+            <div class="menu-grid">
+
+                <article class="menu-card">
+                    <div class="menu-card-img">
+                        <img src="https://images.unsplash.com/photo-1544025162-d76694265947?w=500&q=80"
+                            alt="Slow-roasted lamb rack with herb crust and roasted vegetables" width="500"
+                            height="350" />
+                        <span class="menu-tag">Chef's Special</span>
+                    </div>
+                    <div class="menu-card-body">
+                        <div class="menu-card-top">
+                            <h3>Herb Crusted Lamb Rack</h3>
+                            <span class="menu-price">৳ 1,850</span>
+                        </div>
+                        <p>Slow-roasted lamb with rosemary crust, served with garlic mash and seasonal greens.</p>
+                    </div>
+                </article>
+
+                <article class="menu-card">
+                    <div class="menu-card-img">
+                        <img src="https://images.unsplash.com/photo-1569050467447-ce54b3bbc37d?w=500&q=80"
+                            alt="Grilled Atlantic salmon with lemon butter sauce" width="500" height="350" />
+                    </div>
+                    <div class="menu-card-body">
+                        <div class="menu-card-top">
+                            <h3>Grilled Atlantic Salmon</h3>
+                            <span class="menu-price">৳ 1,450</span>
+                        </div>
+                        <p>Pan-seared salmon fillet with lemon butter sauce, capers, and dill risotto.</p>
+                    </div>
+                </article>
+
+                <article class="menu-card">
+                    <div class="menu-card-img">
+                        <img src="https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?w=500&q=80"
+                            alt="Truffle mushroom pasta with parmesan" width="500" height="350" />
+                        <span class="menu-tag">Popular</span>
+                    </div>
+                    <div class="menu-card-body">
+                        <div class="menu-card-top">
+                            <h3>Black Truffle Pasta</h3>
+                            <span class="menu-price">৳ 1,200</span>
+                        </div>
+                        <p>Hand-rolled tagliatelle with black truffle, wild mushrooms, and aged parmesan.</p>
+                    </div>
+                </article>
+
+
+                <article class="menu-card">
+                    <div class="menu-card-img">
+                        <img src="https://images.unsplash.com/photo-1547592180-85f173990554?w=500&q=80"
+                            alt="Classic caesar salad with croutons" width="500" height="350" />
+                    </div>
+                    <div class="menu-card-body">
+                        <div class="menu-card-top">
+                            <h3>Classic Caesar Salad</h3>
+                            <span class="menu-price">৳ 750</span>
+                        </div>
+                        <p>Crisp romaine, house-made caesar dressing, anchovy, parmesan shavings, croutons.</p>
+                    </div>
+                </article>
+                <article class="menu-card">
+                    <div class="menu-card-img">
+                        <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=500&q=80"
+                            alt="Neapolitan margherita pizza" width="500" height="350" />
+                    </div>
+                    <div class="menu-card-body">
+                        <div class="menu-card-top">
+                            <h3>Wood-Fired Margherita</h3>
+                            <span class="menu-price">৳ 950</span>
+                        </div>
+                        <p>Classic Neapolitan pizza with San Marzano tomato, fresh mozzarella, and basil.</p>
+                    </div>
+                </article>
+
+                <article class="menu-card">
+                    <div class="menu-card-img">
+                        <img src="https://images.unsplash.com/photo-1551024506-0bccd828d307?w=500&q=80"
+                            alt="Rich chocolate lava cake with vanilla ice cream" width="500" height="350" />
+                       
+                    </div>
+                    <div class="menu-card-body">
+                        <div class="menu-card-top">
+                            <h3>Chocolate Lava Cake</h3>
+                            <span class="menu-price">৳ 650</span>
+
+                           
+                        </div>
+                         <p>Classic Neapolitan pizza with San Marzano tomato, fresh mozzarella, and basil.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+
+
+
+
+
+
+        <section class="testimonials">
+            <div class="section-header">
+                <p class="section-label">Guest Reviews</p>
+                <h2>What People Say</h2>
+            </div>
+            <div class="testimonial-grid">
+                <article class="testimonial-card">
+                    <p class="testimonial-text">"Absolutely stunning food and atmosphere. The lamb rack was the best
+                        I've ever had. Will definitely be back!"</p>
+                    <div class="testimonial-author">
+                        <span class="author-avatar">R</span>
+                        <div>
+                            <p class="author-name">Rafiq Ahmed</p>
+                            <p class="author-stars">★★★★★</p>
+                        </div>
+                    </div>
+                </article>
+                <article class="testimonial-card">
+                    <p class="testimonial-text">"The truffle pasta was divine. Service was impeccable and the ambience
+                        was perfect for our anniversary dinner."</p>
+                    <div class="testimonial-author">
+                        <span class="author-avatar">S</span>
+                        <div>
+                            <p class="author-name">Sadia Islam</p>
+                            <p class="author-stars">★★★★★</p>
+                        </div>
+                    </div>
+                </article>
+                <article class="testimonial-card">
+                    <p class="testimonial-text">"Fine dining at its finest in Dhaka. The chocolate lava cake alone is
+                        worth the visit. Highly recommended!"</p>
+                    <div class="testimonial-author">
+                        <span class="author-avatar">T</span>
+                        <div>
+                            <p class="author-name">Tanvir Hossain</p>
+                            <p class="author-stars">★★★★★</p>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+
+        <section class="contact" id="contact">
+            <div class="contact-inner">
+                <div class="contact-info">
+                    <p class="section-label">Find Us</p>
+                    <h2>Visit or Reserve</h2>
+                    <ul class="contact-list">
+                        <li>
+                            <span class="contact-icon">📍</span>
+                            <span>42 Gulshan Avenue, Dhaka 1212, Bangladesh</span>
+                        </li>
+                        <li>
+                            <span class="contact-icon">📞</span>
+                            <span>+880 1700 000 000</span>
+                        </li>
+                        <li>
+                            <span class="contact-icon">✉</span>
+                            <span>hello@saffrrontable.com</span>
+                        </li>
+                        <li>
+                            <span class="contact-icon">🕐</span>
+                            <span>Monday - Sunday: 12:00 PM - 11:00 PM</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="contact-form">
+                    <h3>Reserve a Table</h3>
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" placeholder="Your full name" />
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" placeholder="+880 1XXX XXX XXX" />
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="date">Date</label>
+                            <input type="date" id="date" />
+                        </div>
+                        <div class="form-group">
+                            <label for="guests">Guests</label>
+                            <select id="guests">
+                                <option>1 Person</option>
+                                <option>2 People</option>
+                                <option>3-4 People</option>
+                                <option>5-6 People</option>
+                                <option>7+ People</option>
+                            </select>
+                        </div>
+                    </div>
+                    <button class="btn-submit" type="button">Confirm Reservation</button>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <p class="footer-logo">Saffron Table</p>
+                <p class="footer-tagline">Fine Dining · Est. 2018</p>
+            </div>
+            <nav class="footer-nav">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#menu">Menu</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <p class="footer-copy">© 2025 Saffron Table. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+
+        const btn = document.getElementById('hamburgerBtn');
+        const nav = document.getElementById('mainNav');
+        btn.addEventListener('click', function () {
+            const isOpen = nav.classList.toggle('nav-open');
+            btn.setAttribute('aria-expanded', isOpen);
+            btn.classList.toggle('active');
+        });
+
+        document.querySelectorAll('.nav-link').forEach(function (link) {
+            link.addEventListener('click', function () {
+                nav.classList.remove('nav-open');
+                btn.classList.remove('active');
+                btn.setAttribute('aria-expanded', false);
+            });
+        });
+    </script>
+
+
+
+</body>
+
+</html>
